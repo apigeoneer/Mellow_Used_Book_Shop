@@ -25,7 +25,7 @@ class SplashActivity : AppCompatActivity() {
         }
 
         // Lunch the Main Activity after some delay
-        // Deprecated
+        // Deprecated (but safe to use since we aren't using multiple threads etc.)
         @Suppress("DEPRECATION")
         Handler().postDelayed(
             {
