@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "407591568627",
+    "project_id": "mellow---used-book-shop",
+    "storage_bucket": "mellow---used-book-shop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407591568627:android:865062f7c49d543be9a386",
+        "android_client_info": {
+          "package_name": "com.gmail.apigeoneer.mellow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407591568627-i1p7m1h3pjv2i15idqvb7ib429j0thnk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gmail.apigeoneer.mellow",
+            "certificate_hash": "4f694a98b1d420fadbcb3e8928853c354fc5bfd9"
+          }
+        },
+        {
+          "client_id": "407591568627-ksv5u9rk2b03glun1v8vgis35i85j2bj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkvnKhvwQiQGOZQaoEAUkO1_ynTAwEc1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407591568627-ksv5u9rk2b03glun1v8vgis35i85j2bj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
