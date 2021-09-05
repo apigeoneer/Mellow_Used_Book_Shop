@@ -1,4 +1,4 @@
-package com.gmail.apigeoneer.mellow
+package com.gmail.apigeoneer.mellow.ui
 
 import android.content.Intent
 import android.os.Build
@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.view.WindowInsets
 import android.view.WindowManager
+import com.gmail.apigeoneer.mellow.R
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

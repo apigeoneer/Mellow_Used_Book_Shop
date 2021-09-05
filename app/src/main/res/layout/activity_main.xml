@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -14,14 +14,24 @@
         android:fontFamily="@font/montserrat"
         android:text="Hello World!" />
 
-    <com.gmail.apigeoneer.mellow.widgets.BoldTextView
+    <com.gmail.apigeoneer.mellow.utils.BoldTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="This is a Montserrat Bold Text View!" />
 
-    <com.gmail.apigeoneer.mellow.widgets.NormalTextView
+    <com.gmail.apigeoneer.mellow.utils.NormalTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="This is a Montserrat Text View!" />
+
+    <com.gmail.apigeoneer.mellow.utils.NormalEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Name" />
+
+    <com.gmail.apigeoneer.mellow.utils.NormalButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Here" />
 
 </LinearLayout>
