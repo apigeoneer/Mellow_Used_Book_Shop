@@ -7,8 +7,10 @@
     <string name="first_name_hint">First Name</string>
     <string name="last_name_hint">Last Name</string>
     <string name="create_a_new_account">Create a New Account</string>
-    <string name="hint_reenter_password">Re enter  Password</string>
-    <string name="register">REGISTER</string>
-    <string name="i_agree_to_the_terms_and_conditions">I Agree to the Terms and Conditions</string>
-    <string name="already_have_an_account_login">Already have an account? Login.</string>
+    <string name="hint_reenter_password">Re enter Password</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="i_agree_to_the_terms_and_conditions">I Agree to the Terms &amp; Conditions</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="dont_have_an_account">Don&#39;t have an account?</string>
 </resources>

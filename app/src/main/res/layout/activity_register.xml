@@ -1,136 +1,153 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ui.RegisterActivity">
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center"
-        android:layout_margin="@dimen/medium_margin">
-
-        <com.gmail.apigeoneer.mellow.utils.BoldTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/create_a_new_account"
-            android:layout_margin="@dimen/small_margin"
-            android:padding="@dimen/small_margin"
-            android:textSize="20dp" />
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/firstNameTextField"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/xs2_margin"
-            android:layout_marginBottom="@dimen/xs2_margin"
-            app:boxBackgroundMode="outline"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-
-            <com.gmail.apigeoneer.mellow.utils.NormalEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="text"
-                android:hint="@string/first_name_hint"/>
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/lastNameTextField"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/xs2_margin"
-            android:layout_marginBottom="@dimen/xs2_margin"
-            app:boxBackgroundMode="outline"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-
-            <com.gmail.apigeoneer.mellow.utils.NormalEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="text"
-                android:hint="@string/last_name_hint"/>
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/emailTextField"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/xs2_margin"
-            android:layout_marginBottom="@dimen/xs2_margin"
-            app:boxBackgroundMode="outline"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-
-            <com.gmail.apigeoneer.mellow.utils.NormalEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="text"
-                android:hint="@string/hint_email"/>
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/passwordNameTextField"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/xs2_margin"
-            android:layout_marginBottom="@dimen/xs2_margin"
-            app:boxBackgroundMode="outline"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-
-            <com.gmail.apigeoneer.mellow.utils.NormalEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="text"
-                android:hint="@string/hint_password"/>
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/reenterPasswordTextField"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/xs2_margin"
-            android:layout_marginBottom="@dimen/xs2_margin"
-            app:boxBackgroundMode="outline"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-
-            <com.gmail.apigeoneer.mellow.utils.NormalEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="text"
-                android:hint="@string/hint_reenter_password"/>
-        </com.google.android.material.textfield.TextInputLayout>
+        android:layout_height="match_parent"
+        tools:context=".ui.RegisterActivity">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
+            android:orientation="vertical"
             android:gravity="center"
-            android:layout_marginTop="@dimen/medium_large_margin">
+            android:layout_margin="@dimen/medium_margin">
 
-            <androidx.appcompat.widget.AppCompatCheckBox
+            <com.gmail.apigeoneer.mellow.utils.BoldTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:checked="false"/>
+                android:text="@string/create_a_new_account"
+                android:layout_margin="@dimen/small_margin"
+                android:padding="@dimen/small_margin"
+                android:textSize="20dp" />
 
-            <com.gmail.apigeoneer.mellow.utils.NormalTextView
-                android:layout_width="wrap_content"
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/firstNameTextField"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/i_agree_to_the_terms_and_conditions" />
+                android:layout_marginTop="@dimen/xs2_margin"
+                android:layout_marginBottom="@dimen/xs2_margin"
+                app:boxBackgroundMode="outline"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.gmail.apigeoneer.mellow.utils.NormalEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:hint="@string/first_name_hint"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/lastNameTextField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/xs2_margin"
+                android:layout_marginBottom="@dimen/xs2_margin"
+                app:boxBackgroundMode="outline"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.gmail.apigeoneer.mellow.utils.NormalEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:hint="@string/last_name_hint"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailTextField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/xs2_margin"
+                android:layout_marginBottom="@dimen/xs2_margin"
+                app:boxBackgroundMode="outline"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.gmail.apigeoneer.mellow.utils.NormalEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:hint="@string/hint_email"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/passwordNameTextField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/xs2_margin"
+                android:layout_marginBottom="@dimen/xs2_margin"
+                app:boxBackgroundMode="outline"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.gmail.apigeoneer.mellow.utils.NormalEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:hint="@string/hint_password"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/reenterPasswordTextField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/xs2_margin"
+                android:layout_marginBottom="@dimen/xs2_margin"
+                app:boxBackgroundMode="outline"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.gmail.apigeoneer.mellow.utils.NormalEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:hint="@string/hint_reenter_password"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/medium_large_margin">
+
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"/>
+
+                <com.gmail.apigeoneer.mellow.utils.NormalTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/i_agree_to_the_terms_and_conditions" />
+            </LinearLayout>
+
+            <com.gmail.apigeoneer.mellow.utils.NormalButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_bg"
+                android:text="@string/register"
+                android:layout_marginTop="@dimen/medium_large_margin"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/small_margin">
+
+                <com.gmail.apigeoneer.mellow.utils.NormalTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/already_have_an_account" />
+
+                <com.gmail.apigeoneer.mellow.utils.BoldTextView
+                    android:id="@+id/login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login"
+                    android:paddingLeft="@dimen/xs_margin"/>
+            </LinearLayout>
         </LinearLayout>
 
-        <com.gmail.apigeoneer.mellow.utils.NormalButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/button_bg"
-            android:text="@string/register"
-            android:layout_marginTop="@dimen/medium_large_margin"/>
-
-        <com.gmail.apigeoneer.mellow.utils.NormalTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/already_have_an_account_login"
-            android:layout_marginTop="@dimen/small_margin"/>
-    </LinearLayout>
-
-</ScrollView>
+    </ScrollView>
+</layout>
