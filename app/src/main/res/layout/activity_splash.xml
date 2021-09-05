@@ -5,7 +5,7 @@
     android:id="@+id/splash_constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2f2f2f"
+    android:background="@color/app_logo_bg_dark"
     app:layoutDescription="@xml/activity_splash_scene"
     tools:context=".ui.SplashActivity">
 

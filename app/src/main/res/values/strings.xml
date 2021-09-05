@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Mellow</string>
+    <string name="app_logo">app_logo</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
 </resources>
