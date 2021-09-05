@@ -3,8 +3,10 @@
     <dimen name="button_bg_radius">10dp</dimen>
     <dimen name="auth_logo_bg_height">160dp</dimen>
     <dimen name="xs_margin">4dp</dimen>
+    <dimen name="xs2_margin">6dp</dimen>
     <dimen name="small_margin">8dp</dimen>
     <dimen name="medium_margin">16dp</dimen>
+    <dimen name="medium_large_margin">24dp</dimen>
     <dimen name="large_margin">32dp</dimen>
     <dimen name="xl_margin">64dp</dimen>
     <dimen name="xxl_margin">88dp</dimen>
